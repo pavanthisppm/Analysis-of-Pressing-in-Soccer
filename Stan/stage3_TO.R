@@ -20,7 +20,7 @@ stan_data <- list(
 fit <- stan(
   file = "C:/Users/pavan/Desktop/SFU/Research/STAN/stage3.stan",    
   data = stan_data,
-  chains = 1,
+  chains = 4,
   iter = 8000,
   warmup = 4000,
   seed = 42,
